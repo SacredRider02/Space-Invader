@@ -4,12 +4,11 @@ wnd_width = 612
 wnd_height = 470
 wnd = pygame.display.set_mode((wnd_width, wnd_height))
 
-pygame.display.set_caption('Project Defender')
+pygame.display.set_caption('Space Invader')
 
 bg = pygame.image.load('Background.png')
 spaceship = pygame.image.load('Spaceship.png')
 alienPic = pygame.image.load('Alien.png')
-alienDeath = pygame.image.load('Alien pop.png')
 hostage_pic = pygame.image.load('Hostage.png')
 
 font1 = pygame.font.SysFont('arial', 20, True)
